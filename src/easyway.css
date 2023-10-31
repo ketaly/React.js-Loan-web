@@ -1,0 +1,95 @@
+.easy{
+    background-size: cover;
+    box-sizing: content-box;
+    box-sizing: border-box;
+    height: auto;
+    background-color: rgb(252, 249, 249); 
+    padding: 5%; 
+    
+}
+.easy-icon{
+    font-size: 40px;
+    color: green;
+}
+.E{
+    font-size: clamp(30px, 2.90vw, 60px);
+    font-family: ultra;
+    color: green;
+}
+.l{
+    font-size: clamp(30px, 2.90vw, 60px);
+    font-family: ultra;
+    color: green; 
+}
+.w{
+    font-size: clamp(15px, 0.15vw, 40px);
+    font-family: play;
+}
+
+.but{
+    font-size: 15px;
+    font-family: play;
+     font-weight: 600;
+}
+
+.num{
+  text-align: center;
+  font-family: play;
+  font-size: clamp(20px, 2.15vw, 30px);
+}
+
+.animated-div {
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: opacity 2.0s ease, transform 2.0s ease;
+  }
+  
+  .slide-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .animated-div2{
+    opacity: 0;
+    transform: translateY(-500px);
+    transition: opacity 2.0s ease, transform 2.0s ease;
+  }
+  .slide-in2{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  #targetDiv{
+    font-family: ultra;
+  }
+
+  .custom-button {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .custom-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: left 0.3s, background-color 0.3s;
+    
+  }
+  
+  .custom-button:hover::before {
+    left: 0;
+    background-color: green;
+  }
+  .custom-button span {
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s;
+  }
+  
+  .custom-button:hover span {
+    color: black;
+  }

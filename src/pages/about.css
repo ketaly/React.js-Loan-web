@@ -1,0 +1,82 @@
+
+
+.abt{
+    text-align: center;
+    background-color: rgb(218, 231, 231);
+    height: auto;
+    padding-top: 15%;
+}
+
+.abt h1{
+    display: inline-block;
+    font-family: lobster;
+    font-size: 60px;
+    color: green;
+}
+.sub-abt{
+    font-family: ultra;
+    font-size: 20px;
+}
+.abt p:nth-child(3){
+    margin: 10%;
+    font-family: play;
+    font-size: 20px;
+}
+
+
+.our{
+    text-align: center;
+}
+.our h4{
+    color: rgb(66, 207, 125);
+    font-family: lobster;
+    margin: 5%;
+    font-size: 30px;
+}
+.our p{
+    text-align: center;
+    font-family: play;
+    font-size: 20px;
+}
+
+.why{
+  color: #000000;  
+}
+
+.why h4{
+    color: rgb(66, 207, 125);
+    font-family: lobster;
+    margin: 5%;
+    font-size: 30px;
+    text-align: center; 
+}
+.why p{
+    font-family: play;
+    font-size: 15px;
+}
+.why2{
+    padding-left: 10%;
+}
+
+
+.plan-explain{
+    justify-content: space-between;
+    
+  }
+  .loan_properties{
+    margin: 1%;
+    height: 200px;
+    box-shadow: 1px 1px 1px #000000;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+    font-family: play;
+  }
+  .indi-icon{
+    font-size: 50px;
+    color: green;
+  }
+  .indi-p{
+    font-size: 50px;
+    color: purple;
+  }

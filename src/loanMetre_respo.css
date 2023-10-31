@@ -1,0 +1,231 @@
+@media (min-width: 300px) {
+    input{
+        border: none;
+        font-size: 15px;
+    }
+    
+    .content{
+        margin: auto;
+        margin-top: auto;
+       
+    }
+    .need{
+        font-size: 10px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        font-family: ultra ;
+    }
+    .urgent{
+        font-size: 20px;
+        font-weight: 500;
+        color: white; 
+        text-align: center;
+        font-family: ultra ;
+    }
+    .LABELSLIDER{
+        display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 50px;
+          font-size: 13px;  
+    }
+    .LABELBOXES{
+        font-size: 10px;
+        font-family: play;
+        font-weight: 600;
+    }
+    .small-note{
+        font-size: 10px;
+    }
+    .apply{
+        height: auto;
+        font-size: 10px;
+        font-family: play;
+         font-weight: 600;
+     }
+    
+  }
+  @media (min-width: 475px) {
+    input{
+        border: none;
+        font-size: 15px;
+    }
+    .content{
+        margin: auto;
+        margin-top: auto;
+    }
+    .need{
+        font-size: 13px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        font-family: ultra ;
+    }
+    .urgent{
+        font-size: 23px;
+        font-weight: 500;
+        color: white; 
+        text-align: center;
+        font-family: ultra ;
+    }
+    .LABELSLIDER{
+        display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 50px;
+          font-size: 15px;  
+    }
+    .LABELBOXES{
+        font-size: 13px;
+        font-family: play;
+        font-weight: 600;
+    }
+    .small-note{
+        font-size: 13px;
+    }
+    .apply{
+        height: auto;
+        font-size: 13px;
+        font-family: play;
+         font-weight: 600;
+     } 
+  
+  }
+
+  @media (min-width: 575px) {
+    input{
+        border: none;
+        font-size: 18px;
+    }
+    .content{
+        margin: auto;
+        margin-top: auto;
+    }
+    .need{
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        font-family: ultra ;
+    }
+    .urgent{
+        font-size: 26px;
+        font-weight: 500;
+        color: white; 
+        text-align: center;
+        font-family: ultra ;
+    }
+    .LABELSLIDER{
+        display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 50px;
+          font-size: 18px;  
+    }
+    .LABELBOXES{
+        font-size: 16px;
+        font-family: play;
+        font-weight: 600;
+    }
+    .small-note{
+        font-size: 16px;
+    }
+    .apply{
+        height: auto;
+        font-size: 12px;
+        font-family: play;
+         font-weight: 600;
+     } 
+    
+  }
+  @media (min-width: 675px) {
+  
+    input{
+        border: none;
+        font-size: 16px;
+    }
+    .content{
+        margin: auto;
+        margin-top: auto;
+    }
+    .need{
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        font-family: ultra ;
+    }
+    .urgent{
+        font-size: 26px;
+        font-weight: 500;
+        color: white; 
+        text-align: center;
+        font-family: ultra ;
+    }
+    .LABELSLIDER{
+        display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 50px;
+          font-size: 17px;  
+    }
+    .LABELBOXES{
+        font-size: 14px;
+        font-family: play;
+        font-weight: 600;
+    }
+    .small-note{
+        font-size: 14px;
+    }
+    .apply{
+        height: auto;
+        font-size: 12px;
+        font-family: play;
+         font-weight: 600;
+     } 
+    
+  }
+  @media (min-width: 768px) {
+    .LABELBOXES{
+        font-size: 11px;
+        font-family: play;
+        font-weight: 600; 
+    } 
+
+    input{
+        border: none;
+        font-size: 12px;
+    }
+    .loan-chart{
+        
+        height: auto;
+        font-family: play;
+        font-weight: 600;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .apply{
+        margin-left: 6%;
+        height: auto;
+        font-size: 15px;
+        font-family: play;
+         font-weight: 600;
+     }
+
+}
+
+@media (min-width: 1000px) {
+    input{
+        border: none;
+        font-size: 20px;
+    }
+    .apply{
+        margin-left: auto;
+        height: auto;
+        font-size: 12px;
+        font-family: play;
+         font-weight: 600;
+     }
+
+}

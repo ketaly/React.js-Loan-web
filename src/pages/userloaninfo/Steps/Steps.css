@@ -1,0 +1,197 @@
+label {
+    margin-top: 2%;
+}
+
+.personal-info {
+    margin-top: 8%;
+}
+
+.personal-info h3 {
+    font-family: lobster;
+    font-size: 30px;
+}
+
+.personal-info p {
+    font-family: play;
+    font-size: 18px;
+}
+
+.person {
+    padding-left: 27%;
+    padding-top: 5%;
+}
+
+.person-input {
+    border: 2px solid gray;
+    background-color: #e9e9ed;
+    width: 350px;
+    height: 30px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.select-btn {
+    width: 350px;
+    height: 30px;
+    border: 2px solid gray;
+}
+
+.euro-input {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-family: ultra;
+    justify-content: space-around;
+
+}
+
+.euro-sign {
+    font-size: 25px;
+    margin-right: 5px;
+    font-family: lobster;
+}
+
+.amt {
+    border: 1px solid gray;
+    background-color: #e9e9ed;
+    width: 280px;
+    height: 30px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.circle-container {
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.circle {
+    width: 80px;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    font-family: play;
+    background-color: teal;
+}
+
+.circle div {
+    padding-top: 25px;
+}
+
+.selected {
+    background-color: white;
+    border: green 2px solid;
+}
+
+.icon {
+    color: green;
+    font-size: 60px;
+}
+
+
+.select-plan {
+    /* box-sizing: content-box; */
+    /* box-sizing: border-box; */
+    height: 100px;
+    width: 80px;
+    border-radius: 100%;
+
+}
+
+.row-plan {
+    justify-content: space-around;
+    margin: 10%;
+}
+
+.row-plan-only-text {
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.selected-p-tag {
+    font-size: small;
+}
+
+.dur {
+    border: 1px solid gray;
+    background-color: #e9e9ed;
+    width: 180px;
+    height: 30px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.mons {
+    font-family: none;
+}
+
+.house_date {
+    margin-left: 30%;
+    margin-top: 5%;
+    font-family: play;
+    font-weight: 800;
+}
+
+.house-month {
+    height: 30px;
+    width: 80px;
+
+}
+
+.house-year {
+    width: 80px;
+    height: 30px;
+    margin-left: 30%;
+}
+
+.birth-day {
+    width: 60px;
+    height: 30px;
+
+}
+
+.birth-month {
+    width: 60px;
+    height: 30px;
+
+}
+
+.birth-year {
+    width: 60px;
+    height: 30px;
+
+}
+
+.date-of-birth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-change-of-lable-tag {
+    font-family: play;
+    font-weight: 800;
+}
+
+.form-step-3 {
+    justify-self: center;
+}
+
+.empy-others-input {
+    padding-left: 20%;
+}

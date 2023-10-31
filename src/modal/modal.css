@@ -1,0 +1,173 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal.open {
+    display: flex;
+  }
+  
+  .modal-content {
+    height: auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: content-box;
+  }
+ 
+  .modal-content2 {
+    height: auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: content-box;
+  }
+
+  .log{
+    height: 100%;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+    box-sizing: border-box;
+  }
+  .log h2{
+    text-align: center;
+    font-family: lobster;
+  }
+  
+  .log h6{
+    text-align: center;
+    font-family: lobster;
+  }
+  .log-input input{
+    font-family: play;
+    border-bottom: solid 1px blue;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+   
+  }
+
+  .d-flex{
+    font-size: 12px;
+  }
+  
+.forgot-password {
+    font-size: 12px;
+  }
+  
+  .forgot-password Link {
+    text-decoration: underline;
+    color: #070707;
+  }
+  
+  .forgot-password Link:hover {
+    text-decoration: none;
+  }
+  
+  .custom-button {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border: solid 1px #198754;
+    font-size: 16px;
+    font-weight: 800;
+  }
+
+  .custom-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: left 0.3s, background-color 0.3s;
+    
+  }
+  
+
+  .custom-button span {
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s;
+  }
+  
+  .custom-button:hover span {
+    color: black;
+  }
+
+
+  .error-text{
+    color: red;
+    text-align: left;
+    font-size: 10px;
+    font-family: play;
+  }
+
+
+
+/* RegistrationForm.css */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  height: 150px;
+  width: 20%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-family: ultra;
+  text-align: center;
+}
+
+.loading-circle {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #3498db;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: rotate 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+nav{
+    transition: background-color 0.9s ease-in-out;
+    z-index: 1000;
+    font-family: play;
+    height: 50px;
+}
+ul{ 
+    margin-left: auto;
+}
+
+.hh{
+    background-color: transparent;
+}
+.hh2{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight:700;  
+}
+.loan{
+    font-size: 30px;
+    font-weight: 800;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    margin-left: 8px;
+    font-size: 10px;
+}
+
+
+
+.nav-link{
+    font-size: 15px;
+    justify-content: space-between;
+}
+.nav-link:hover{
+    background-color: orangered;
+    color: white;
+    border-radius: 10%;
+}
+.drop{
+    padding-left: 10%;
+    color: rgb(43, 35, 77);
+    font-weight: 600;
+
+}
+.drop:hover{
+background-color: green;
+color: white;
+border-radius: 10px;
+transform: scale(1.1);
+transition: 0.5s ease-in-out;
+cursor: pointer;
+}
+.drop:active{
+    background-color: red;
+    transform: scale(0.95);
+    transition: 0.2s ease-in-out;
+  }
+

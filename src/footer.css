@@ -1,0 +1,22 @@
+footer{
+    background-color: gray;
+}
+.footer{
+    display: flex;
+    
+}
+.footer h5{
+    font-family: ultra;
+    color: green;
+    font-size: 15px;
+}
+.footer p{
+    font-family: play;
+    font-size: 13px;
+    color: white;
+}
+
+.firstFooter{
+    display: flex;
+    
+}

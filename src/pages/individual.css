@@ -1,0 +1,125 @@
+
+.indi{
+    
+    background-color: rgb(218, 231, 231);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+  }
+
+.indivi{
+  display: flex;
+  
+}
+
+.head{
+  text-align: left;
+  margin-top: 5%;
+}
+.head p{
+  color: #000000;
+}
+.head h5{
+  text-shadow: 5px 5px 10px #000000;
+    font-family: play;
+    padding-left: 5%;
+}
+  .heading{
+    margin-top: 15%;
+    font-family: lobster;
+    font-size: 60px;
+    text-align: start;
+    padding-left: 5%;
+    color: #000000;
+  }
+  .pes{
+    padding: 5%;
+    background-color: rgba(54, 45, 45, 0.4);
+    font-size: 12px !important;
+    color: white;
+    border-radius: 5%;
+    font-family: play;
+    box-shadow: 5px 5px 10px #000000;
+    backdrop-filter: blur(8px);
+  }
+
+  .indi-img{
+   margin-top: 20%; 
+   
+  }
+  .indi-img img{
+    box-sizing: content-box;
+    height: 400px;
+    border-radius: 10%;
+  }
+  .blur{
+    margin-top: 10%; 
+    height: 550px;
+    border-radius: 10%;
+  }
+
+  .plan-explain{
+    justify-content: space-between;
+    
+  }
+  .loan_properties{
+    margin: 1%;
+    height: 200px;
+    box-shadow: 1px 1px 1px #000000;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+    font-family: play;
+  }
+  .indi-icon{
+    font-size: 50px;
+    color: green;
+  }
+  .indi-p{
+    font-size: 50px;
+    color: purple;
+  }
+
+  .indi-animated-div {
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: opacity 2.0s ease, transform 2.0s ease;
+  }
+  
+  .indi-slide-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .custom-button {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .custom-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: left 0.3s, background-color 0.3s;
+    
+  }
+  
+  .custom-button:hover::before {
+    left: 0;
+    background-color: green;
+  }
+  .custom-button span {
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s;
+  }
+  
+  .custom-button:hover span {
+    color: black;
+  }

@@ -1,0 +1,40 @@
+
+.offerHolder{
+    background-color: #fafcff;
+   height: auto;
+}
+.offer{
+    padding-top: 4%;
+    font-size: clamp(30px, 2.90vw, 60px);
+    font-family: ultra;
+    text-align: center;
+    color: green;
+}
+.offerAll{
+    padding: 5%;
+    background-color: #fafcff;
+    
+}
+.offerAll1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.details h3{
+    font-family: play;
+    font-size: 23px;
+    font-weight: 800;
+}
+.details p{
+    font-family: play;
+    font-size: 13px;
+}
+.offerAll2{
+    display: flex;
+    justify-content: space-around;
+}
+.details img{
+    margin-bottom: 10%;
+    box-sizing: content-box;
+    border-radius: 10%
+}
